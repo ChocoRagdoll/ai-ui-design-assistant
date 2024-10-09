@@ -4,9 +4,10 @@ This project aims to build an AI-powered tool that converts natural language des
 
 ## How to Contribute
 1. Clone the repository.
-2. Install the required dependencies (see requirements.txt).
-3. Create a new branch for your work.
-4. Submit a pull request for review.
+2. Set up a virtual environment. (optional)
+3. Install the required dependencies using `pip install -r requirements.txt`.
+4. Create a new branch for your work.
+5. Submit a pull request for review.
 
 ## Project Structure
 - `model/`: Contains model-related code (training, inference, etc.)
@@ -17,6 +18,7 @@ This project aims to build an AI-powered tool that converts natural language des
 ## Setup Instructions
 - Python version: 3.9+
 - Install dependencies: `pip install -r requirements.txt`
+- When adding new dependencies, do not forget to update the `requirements.txt` file using `pip freeze > requirements.txt`
 
 ## License
 This project is licensed under MIT License.
