@@ -19,6 +19,15 @@ This project aims to build an AI-powered tool that converts natural language des
 - Python version: 3.9+
 - Install dependencies: `pip install -r requirements.txt`
 - When adding new dependencies, do not forget to update the `requirements.txt` file using `pip freeze > requirements.txt`
+- Set up Google Colab
+  - Go to Google Colab and sign in with your Google account.
+  - You can create a new notebook by selecting File > New notebook or by opening an existing one.
+  - To leverage the GPU for faster model training and testing, click on Runtime > Change runtime type, in the dropdown for "Hardware accelerator," select GPU and click save.
+  - Link your GitHub repository with Google Colab.
+
+## Handling Datasets
+- Large datasets: upload to Google Colab or Google drive. 
+- Small datatsets: upload to the `data/` folder in the repo. 
 
 ## License
 This project is licensed under MIT License.
